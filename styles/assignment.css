@@ -104,7 +104,8 @@ main{
 }
 .item-description{
     font-size: 20px;
-    color: #000000;
+    color: #858484;
+    font-weight: 160px;
     
 }
 
@@ -114,4 +115,39 @@ main{
 }
 .item-description{
     margin-top: 0;
+}
+/* forth page */
+.forth-page{
+    display: flex;
+    justify-content: space-between;
+    
+}
+input[type="text"], input[type="email"], textarea{
+    height: 50px;
+    display: block;
+    width: 100%;
+    padding: 10ox 20px;
+    border:;
+}
+.forth-page{
+    margin-top: 115px;
+}
+.fourth-heading{
+    font-size:80px;
+    font-weight:bolder;
+}
+footer{
+    text-align: center;
+    margin-top: 150px;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+    
+    text-align: center;
+    justify-content: space-around;
+}
+footer li a{
+    text-decoration: none;
+    color: #858484;
 }
